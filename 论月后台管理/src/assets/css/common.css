@@ -1,0 +1,37 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    font-size: 0px;
+    line-height: 0px;
+    height: 0px;
+    clear: both;
+}
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+.trademark {
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.trademark span {
+    margin-left: 20px;
+}
+.trademark span:hover{
+    color: blue;
+}
+
+.trademark .allFont {
+    color: blue;
+}
+
+.startItem {
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
